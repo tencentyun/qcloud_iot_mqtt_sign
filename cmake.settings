@@ -1,0 +1,4 @@
+# 编译工具链
+
+SET(PLATFORM_CC                 "gcc")
+SET(PLATFORM_OS                 "linux")  # windows CC is MSVC/linux/other
