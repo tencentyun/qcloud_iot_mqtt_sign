@@ -32,7 +32,7 @@ SET(PLATFORM_OS                 "windows")
 ./output/bin/qcloud-mqtt-sign product_id device_name device_secret
 程序生成的 Client ID username password 用于连接腾讯云物联网平台。
 ```
-$ ./output/qcloud-mqtt-sign  L4WG9V9M2M TEST2 XXXXe65nKPk0Lx+ZThaA==
+$ ./output/bin/qcloud-mqtt-sign  L4WG9V9M2M TEST2 XXXXe65nKPk0Lx+ZThaA==
 device_secret base64 decode:0xx 0xxx 0xxx 0xxx 0xd7 0xba 0xe6 0x72 0x8f 0x93 0x42 0xf1 0xf9 0x94 0xe1 0x68
 username sign: xxxxea5710f9e585426dcf19e0c8c2d6af484f06
 Client ID：L4WG9V9M2MTEST2
