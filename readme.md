@@ -17,7 +17,7 @@ PLATFORM_OS                     = linux
 SET(PLATFORM_CC                 "gcc")
 SET(PLATFORM_OS                 "linux")
 ```
-然后执行 'sh cmake_build.sh'
+然后执行 `bash cmake_build.sh`
 
 2.在 windows 平台上，使用 vs2019：
 
