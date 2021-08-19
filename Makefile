@@ -24,6 +24,7 @@ all:
 	$(TOP_Q) \
     mkdir -p output/bin
 	$(PLATFORM_CC) $(CFLAGS) ${IOTSDK_INCLUDE_FILES} qcloud-mqtt-sign.c $(IOTSDK_SRC_FILES) -o output/bin/qcloud-mqtt-sign
+	$(PLATFORM_CC) $(CFLAGS) ${IOTSDK_INCLUDE_FILES} qcloud-dynreg-sign.c $(IOTSDK_SRC_FILES) -o output/bin/qcloud-dynreg-sign
 	
 clean:
 	rm -rf output

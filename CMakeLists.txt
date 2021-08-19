@@ -42,4 +42,6 @@ file(GLOB platform 	${PROJECT_SOURCE_DIR}/platform/*.c)
 file(GLOB src_qcloud_mqtt_sign 	${src_qcloud_mqtt_sign} ${PROJECT_SOURCE_DIR}/qcloud-mqtt-sign.c)
 add_executable(qcloud-mqtt-sign 	${utils} ${platform} ${src_qcloud_mqtt_sign})
 
+file(GLOB src_qcloud_dynreg_sign 	${src_qcloud_dynreg_sign} ${PROJECT_SOURCE_DIR}/qcloud-dynreg-sign.c)
+add_executable(qcloud-dynreg-sign	${utils} ${platform} ${src_qcloud_dynreg_sign})
 
